@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertidor</title>
+</head>
+<body>
+<h1>Convertidor de Grados</h1>
+<p>Esta aplicacion tiene como objetivo transformar Celsius a Fahrenheit y viceversa
+<br> Seleccione lo que quiere convertir, ingrese en numero (decimales con punto "."),y tendrá su resultado!
+</p>
+
+<select id = "selectGrado">
+    <option value="celsius"> Celsius a fahrenheit</option>
+    <option value="fahrenheit"> Fahrenheit a celsius</option>
+</select>
+<br>
+Ingrese su numero
+<input id="numeroSelect"></input>
+<br>
+<button onclick="setResultado()">Ingresar</button>
+<br>
+<p id="numeroPoner"></p>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/BackEnd.js"></script>
+<script src="js/FrontEnd.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package eci.final;
+package eci.finalarsw;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
