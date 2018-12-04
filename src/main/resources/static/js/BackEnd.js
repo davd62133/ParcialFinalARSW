@@ -1,4 +1,5 @@
-var host = 'http://localhost:8080/convertidor/';
+//var host = 'http://localhost:8080/convertidor/';
+var host = 'https://parcialfinalarswdavid.herokuapp.com/convertidor/'
 
 async function celsius(numero){
     console.log(numero);
